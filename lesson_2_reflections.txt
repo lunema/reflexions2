@@ -21,3 +21,19 @@ What are some situations when branches would be helpful in keeping your history 
 
 You may also want to commit your changes to the file. When you're ready to move on, click "Next" to hear a perspective from an experienced Git user.
 
+git checkout coins
+git merge branch2 branch3
+
+Auto-merging game.js
+CONFLICT (content): Merge conflict in game.js
+Automatic merge failed; fix conflicts and then commit the result.
+git merge --abort
+git log
+git diff 
+
+The command Caroline mentions to compare a commit to its parent is 
+git show commit_id
+
+git log --graph
+
+
